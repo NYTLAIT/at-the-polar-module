@@ -4,6 +4,7 @@
   "description": "Socket.IO toolkit for research station communication and collaboration that includes station management, subscriptions. and threaded messaging",
   "main": "index.js",
   "exports": {
+    ".": "./index.js",
     "./client": "./socket/clientEvents.js",
     "./server": "./server/serverState.js"
   },
