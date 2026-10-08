@@ -1,0 +1,17 @@
+{
+  "name": "at-the-polar-module",
+  "version": "1.0.0",
+  "description": "Socket.IO toolkit for research station communication and collaboration that includes station management, subscriptions. and threaded messaging",
+  "main": "index.js",
+  "exports": {
+    "./client": "./socket/clientEvents.js",
+    "./server": "./server/serverState.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
