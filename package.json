@@ -1,7 +1,7 @@
 {
   "name": "at-the-polar-module",
   "version": "1.0.0",
-  "description": "Socket.IO toolkit for research station communication and collaboration that includes station management, subscriptions. and threaded messaging",
+  "description": "Socket.IO toolkit for research station communication themed fandom platform that includes station management, subscriptions. and threaded messaging",
   "main": "index.js",
   "exports": {
     ".": "./index.js",
