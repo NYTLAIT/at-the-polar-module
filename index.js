@@ -1,4 +1,4 @@
-export { default as setFeatures } from './server/server.js'
+export { default as setFeatures } from './server/serverState.js'
 
 export {
   connect,
@@ -13,4 +13,4 @@ export {
   getMessages,
   postMessage,
   replyToMessage
-} from './socket/client.js'
+} from './socket/clientEvents.js'

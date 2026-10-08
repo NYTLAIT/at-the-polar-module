@@ -14,5 +14,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "socket.io": "^4.8.4",
+    "socket.io-client": "^4.8.4"
+  }
 }
