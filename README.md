@@ -1,5 +1,4 @@
 # at-the-polar-module
-
 Socket.IO toolkit for research station communication themed fandom platform.
 
 Package provides server and client utilities for:
@@ -8,6 +7,9 @@ Package provides server and client utilities for:
 - Station subsciption and membership
 - Real time messaging
 - Threaded replies
+
+## Complementary Application
+https://github.com/NYTLAIT/at-the-polar
 
 ## Install
 ```bash
@@ -107,6 +109,8 @@ replyToMessage(stationName, messageId, text, callback)
 ```
 
 # Future Improvements
+- Documentation
+- Optimization and organization
 - Database persistence
 - Authentication
 - Message pagination
