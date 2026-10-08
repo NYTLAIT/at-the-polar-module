@@ -1,6 +1,6 @@
-import { handleConnection } from "./serverEvents"
-import { handleStations } from "./serverEvents"
-import { handleMessages } from "./serverEvents"
+import { handleConnection } from "./serverEvents.js"
+import { handleStations } from "./serverEvents.js"
+import { handleMessages } from "./serverEvents.js"
 
 export default function setFeatures(io) {
   const state = {
@@ -17,4 +17,4 @@ export default function setFeatures(io) {
     handleStations(io, socket, state)
     handleMessages(io, socket, state)
   })
-}
+} 
